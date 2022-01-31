@@ -1,0 +1,65 @@
+
+
+body{
+background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+p{	
+font-family: "Bookman Old Style", Arial, sans-serif, serif;
+font-size: 1rem;
+}
+
+.center{	
+ text-align: center;
+}
+
+span{	
+text-decoration: underline;
+font-style: italic;
+}
+
+.container{	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+
+.image {
+  width: 400px;
+  height: 400px;
+  border: solid whitesmoke 2px;
+  margin: 2px;
+  padding: 2px;
+  box-shadow: 0 20px 50px rgba(59, 43, 91, 0.7);
+}
+
+
+.image:hover{
+-webkit-transform: scale(0.80);
+-ms-transform: scale(0.80);
+transform: scale(1.10);
+transition: 2s ease-in-out;
+}
+
+
+h1{	
+	color: mediumvioletred;
+	text-decoration: underline;
+	font-style: italic;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+h3{	
+	font-size: 1.22rem;
+	text-decoration: underline;
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                0px -5px 35px rgba(255,255,255,0.3);
+   color: mediumvioletred;
+}
